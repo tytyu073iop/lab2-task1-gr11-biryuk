@@ -51,3 +51,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# my program executable
+bin/program
+
+#no cache
+.ccls-cache
