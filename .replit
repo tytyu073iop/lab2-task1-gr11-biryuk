@@ -3,7 +3,7 @@ run = "gcc -o bin/program /home/runner/workspace/src/main.c && ./bin/program"
 modules = ["c-clang14"]
 
 [deployment]
-run = ["sh", "-c", "gcc -o bin/program /home/runner/workspace/src/hello.c"]
+run = ["sh", "-c", "gcc -o bin/program /home/runner/workspace/src/main.c"]
 
 [nix]
 channel = "stable-24_05"
